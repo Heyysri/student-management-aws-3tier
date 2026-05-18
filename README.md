@@ -4,7 +4,7 @@ A full-stack Student Management System deployed on AWS using a 3-tier architectu
 
 ---
 
-# 🏗️ Architecture
+#  🏗️ Architecture & Project Structure
 
 ![Architecture Diagram](screenshots/3tier-diagram.png)
 
@@ -169,12 +169,6 @@ http://<FRONTEND-EC2-PUBLIC-IP>
 
 # 📸 Screenshots
 
-## 🏗️ Architecture Diagram
-
-![Architecture Diagram](architecture/3tier-diagram.png)
-
----
-
 # ☁️ Infrastructure
 
 ## EC2 Instances
@@ -236,7 +230,6 @@ student-management-aws-3tier/
 ├── Frontend/
 ├── Database/
 ├── screenshots/
-├── architecture/
 ├── README.md
 └── .gitignore
 ```
