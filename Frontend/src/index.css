@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #222;
+}
+
+.app {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #555;
+}
+
+.form-card,
+.table-card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.form-card h2,
+.table-card h2 {
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2563eb;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-weight: bold;
+}
+
+.add-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #1d4ed8;
+}
+
+.del-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.del-btn:hover {
+  background: #b91c1c;
+}
+
+.msg {
+  margin-top: 15px;
+  color: green;
+}
+
+.empty {
+  color: #777;
+  padding: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background: #2563eb;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+table tr:hover {
+  background: #eef4ff;
+}
