@@ -6,7 +6,7 @@ A full-stack Student Management System deployed on AWS using a 3-tier architectu
 
 # 🏗️ Architecture
 
-![Architecture Diagram](architecture/3tier-diagram.png)
+![Architecture Diagram](screenshots/3tier-diagram.png)
 
 ```text
                  Internet
