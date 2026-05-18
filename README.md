@@ -177,21 +177,15 @@ http://<FRONTEND-EC2-PUBLIC-IP>
 
 # 💻 Application
 
-## Application Homepage
-
-![Homepage](screenshots/06-app-homepage.png)
-
 ## Students List
 
-![Students List](screenshots/07-app-students-list.png)
+![Students List](screenshots/06-app-students-list.png)
 
 ## API Health Check
 
-![API Health](screenshots/08-api-health.png)
+![API Health](screenshots/08-API-Health-Check.png)
 
-## API JSON Response
 
-![API JSON](screenshots/09-api-json.png)
 
 ---
 
@@ -199,7 +193,15 @@ http://<FRONTEND-EC2-PUBLIC-IP>
 
 ## Spring Boot Service Status
 
-![Backend Running](screenshots/10-backend-service-running.png)
+![Backend Running](screenshots/07-backend-service-running.png)
+
+## Backend API Verification
+
+![Backend Verify](screenshots/09-backend-verify.png)
+
+## Student Data Stored in RDS MySQL
+
+![Database Data](screenshots/10-Data-verify.png)
 
 ---
 
