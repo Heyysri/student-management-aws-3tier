@@ -1,6 +1,6 @@
 # 🎓 Student Management App — AWS 3-Tier Architecture
 
-A full-stack Student Management System deployed on AWS using a 3-tier architecture.
+A Full-Stack Student Management System deployed on AWS using a 3-tier architecture.
 
 ---
 
