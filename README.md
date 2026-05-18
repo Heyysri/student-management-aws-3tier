@@ -148,16 +148,6 @@ http://<FRONTEND-EC2-PUBLIC-IP>
 
 ---
 
-# 🌐 API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | /api/students | Get all students |
-| POST | /api/students | Add new student |
-| DELETE | /api/students/{id} | Delete student |
-| GET | /api/students/health | Health check |
-
----
 
 # 📸 Screenshots
 
