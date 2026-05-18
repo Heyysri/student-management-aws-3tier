@@ -102,13 +102,13 @@ mvn clean package -DskipTests
 ### Run Backend Application
 
 ```bash
-nohup java -jar target/student-app.jar > app.log 2>&1 &
+java -jar target/student-app.jar &
 ```
 
 ### Verify Backend
 
 ```bash
-curl http://<BACKEND-EC2-IP>:8080/api/students/health
+curl http://localhost:8080/api/students/health
 ```
 
 ---
