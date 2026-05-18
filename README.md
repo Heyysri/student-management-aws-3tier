@@ -11,11 +11,11 @@ A full-stack Student Management System deployed on AWS using a 3-tier architectu
 ```text
                  Internet
                      ↓
-EC2 (Frontend — React + Apache2)   [Public Subnet]
+      EC2 (Frontend — React + Apache2)   
                      ↓
-EC2 (Backend — Java Spring Boot)   [Public Subnet]
+      EC2 (Backend — Java Spring Boot)   
                      ↓
-RDS MySQL (studentdb)              [Private Subnet]
+          RDS MySQL (studentdb)              
 ```
 
 ---
@@ -27,7 +27,7 @@ RDS MySQL (studentdb)              [Private Subnet]
 | Frontend | React (Vite) + Apache2 |
 | Backend | Java 17 + Spring Boot + Maven |
 | Database | Amazon RDS MySQL 8.0 |
-| Cloud | AWS EC2, RDS, Security Groups, VPC |
+| Cloud | AWS EC2, RDS, Security Groups |
 | OS | Ubuntu 22.04 LTS |
 
 ---
