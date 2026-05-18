@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🎓 Student Management App — AWS 3-Tier Architecture
 
 A full-stack Student Management System deployed on AWS using a 3-tier architecture.
@@ -6,13 +5,13 @@ A full-stack Student Management System deployed on AWS using a 3-tier architectu
 ## 🏗️ Architecture
 
 ![Architecture](architecture/3tier-diagram.png)
-Internet
-↓
-EC2 (Frontend — React + Apache2)   [Public Subnet]
-↓
-EC2 (Backend — Java Spring Boot)   [Public Subnet]
-↓
-RDS MySQL (studentdb)              [Private Subnet]
+                  Internet
+                    ↓
+                  EC2 (Frontend — React + Apache2)   [Public Subnet]
+                    ↓
+                  EC2 (Backend — Java Spring Boot)   [Public Subnet]
+                    ↓
+                  RDS MySQL (studentdb)              [Private Subnet]
 
 
 ## 🛠️ Tech Stack
@@ -87,4 +86,3 @@ sudo cp -r dist/* /var/www/html/
 **Srikanth Sanjay Pawar**
 - LinkedIn: [linkedin.com/in/srikanth-pawar](https://linkedin.com/in/srikanth-pawar)
 - Email: sreekanthsanjay5@gmail.com
-EOF
