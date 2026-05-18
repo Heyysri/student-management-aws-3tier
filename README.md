@@ -173,6 +173,10 @@ http://<FRONTEND-EC2-PUBLIC-IP>
 
 ![RDS Available](screenshots/05-rds-available.png)
 
+## RDS Endpoint
+
+![API Health](screenshots/08-rds-endpoint.png)
+
 ---
 
 # 💻 Application
@@ -181,9 +185,7 @@ http://<FRONTEND-EC2-PUBLIC-IP>
 
 ![Students List](screenshots/06-app-students-list.png)
 
-## API Health Check
 
-![API Health](screenshots/08-API-Health-Check.png)
 
 
 
