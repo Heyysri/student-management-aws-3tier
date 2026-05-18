@@ -1,4 +1,3 @@
-CREATE DATABASE IF NOT EXISTS studentdb;
 USE studentdb;
 
 CREATE TABLE students (
@@ -11,3 +10,6 @@ CREATE TABLE students (
   percentage  DOUBLE,
   PRIMARY KEY (id)
 );
+
+SHOW TABLES;
+EXIT;
