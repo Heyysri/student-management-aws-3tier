@@ -118,8 +118,9 @@ curl http://localhost:8080/api/students/health
 ### Install Node.js & Apache2
 
 ```bash
-sudo apt update
-sudo apt install nodejs npm apache2 -y
+sudo apt update -y
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
 ```
 
 ### Build React Application
@@ -128,6 +129,7 @@ sudo apt install nodejs npm apache2 -y
 cd Frontend
 npm install
 npm run build
+sudo apt install apache2 -y
 ```
 
 ### Deploy Frontend
@@ -135,6 +137,7 @@ npm run build
 ```bash
 sudo cp -r dist/* /var/www/html/
 sudo systemctl restart apache2
+sudo systemctl enable apache2
 ```
 
 ### Access Application
