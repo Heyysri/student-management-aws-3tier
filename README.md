@@ -8,17 +8,6 @@ A full-stack Student Management System deployed on AWS using a 3-tier architectu
 
 ![Architecture Diagram](screenshots/3tier-diagram.png)
 
-```text
-                 Internet
-                     ↓
-      EC2 (Frontend — React + Apache2)   
-                     ↓
-      EC2 (Backend — Java Spring Boot)   
-                     ↓
-          RDS MySQL (studentdb)              
-```
-
----
 
 # 🛠️ Tech Stack
 
