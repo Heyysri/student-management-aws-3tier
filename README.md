@@ -98,7 +98,8 @@ git clone https://github.com/Heyysri/student-management-aws-3tier
 
 ```bash
 cd student-management-aws-3tier/Backend
-NOTE: Replace <YOUR-RDS-ENDPOINT> with your actual AWS RDS endpoint from the RDS console in Enter NOTE: Add the same username and password used while creating the RDS database.
+NOTE: Replace <YOUR-RDS-ENDPOINT> with your actual AWS RDS endpoint from the RDS console in Enter
+NOTE: Add the same username and password used while creating the RDS database.
 Backend/src/main/resources/application.properties
 mvn clean package -DskipTests
 ```
