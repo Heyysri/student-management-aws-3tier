@@ -73,10 +73,6 @@ sudo apt install mysql-client -y
 mysql -h <RDS-ENDPOINT> -u admin -p
 ```
 
-```sql
-USE studentdb;
-```
-
 Run:
 
 ```text
