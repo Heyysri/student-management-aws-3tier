@@ -89,6 +89,10 @@ Database/schema.sql
 sudo apt update
 sudo apt install openjdk-17-jdk maven -y
 ```
+### Clone the Repo
+```bash
+git clone https://github.com/Heyysri/student-management-aws-3tier
+```
 
 ### Build Spring Boot Application
 
