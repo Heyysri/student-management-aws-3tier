@@ -101,6 +101,7 @@ cd student-management-aws-3tier/Backend
 NOTE: Replace <YOUR-RDS-ENDPOINT> with your actual AWS RDS endpoint from the RDS console in Enter
 NOTE: Add the same username and password used while creating the RDS database.
 Backend/src/main/resources/application.properties
+cd ../../../
 mvn clean package -DskipTests
 ```
 
