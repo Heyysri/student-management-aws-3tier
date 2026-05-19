@@ -98,15 +98,16 @@ git clone https://github.com/Heyysri/student-management-aws-3tier
 
 ```bash
 cd student-management-aws-3tier/Backend
-NOTE: Replace <YOUR-RDS-ENDPOINT> with your actual AWS RDS endpoint from the RDS console in Enter
-NOTE: Add the same username and password used while creating the RDS database in Backend/src/main/resources/application.properties
-cd ../../../
+# Replace <YOUR-RDS-ENDPOINT> with your actual AWS RDS endpoint from the RDS console in Enter
+# Add the same username and password used while creating the RDS database in Backend/src/main/resources/application.properties
+nano src/main/resources/application.properties
 mvn clean package -DskipTests
 ```
 
 ### Run Backend Application
 
 ```bash
+cd student-management-aws-3tier/Backend
 java -jar target/student-app.jar &
 ```
 
@@ -136,8 +137,9 @@ git clone https://github.com/Heyysri/student-management-aws-3tier
 ### Build React Application
 
 ```bash
-cd student-management-aws-3tier/Frontend/src
-NOTE:Replace <BACKEND-EC2-PUBLIC-IP> with your actual backend EC2 public IPv4 address in App.jsx
+cd student-management-aws-3tier/Frontend
+# Replace <BACKEND-EC2-PUBLIC-IP> with your actual backend EC2 public IPv4 address in App.jsx
+nano src/App.jsx
 npm install
 npm run build
 sudo apt install apache2 -y
@@ -146,7 +148,6 @@ sudo apt install apache2 -y
 ### Deploy Frontend
 
 ```bash
-cd ..
 sudo cp -r dist/* /var/www/html/
 sudo systemctl restart apache2
 sudo systemctl enable apache2
@@ -225,23 +226,12 @@ http://<FRONTEND-EC2-PUBLIC-IP>
 student-management-aws-3tier/
 │
 ├── Backend/
-├── Frontend/
 ├── Database/
+├── Frontend/
 ├── screenshots/
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
-
----
-
-# 🔮 Future Improvements
-
-- Dockerize frontend and backend
-- Add Jenkins CI/CD pipeline
-- Deploy using Kubernetes
-- Add Terraform Infrastructure as Code
-- Configure Nginx Reverse Proxy
-- Enable HTTPS using AWS ACM
 
 ---
 
