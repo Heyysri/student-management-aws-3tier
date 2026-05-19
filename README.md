@@ -37,7 +37,7 @@ A Full-Stack Student Management System deployed on AWS using a 3-tier architectu
 
 | SG Name | Inbound Rules |
 |---|---|
-| student-frontend-sg | Port 80 (HTTP) from 0.0.0.0/0, Port 22 (SSH) from My IP |
+| student-frontend-sg | Port 80 (HTTP) from 0.0.0.0/0, Port 22 (SSH) from My IP, Port 3000 (React dev server) from 0.0.0.0/0|
 | student-backend-sg | Port 8080 from 0.0.0.0/0, Port 22 (SSH) from My IP |
 | student-rds-sg | Port 3306 from student-backend-sg only |
 
