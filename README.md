@@ -68,6 +68,8 @@ A Full-Stack Student Management System deployed on AWS using a 3-tier architectu
 ## 2️⃣ Database Setup
 
 ```bash
+sudo apt update
+sudo apt install mysql-client -y
 mysql -h <RDS-ENDPOINT> -u admin -p
 ```
 
