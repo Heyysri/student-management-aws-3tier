@@ -133,7 +133,7 @@ git clone https://github.com/Heyysri/student-management-aws-3tier
 ### Build React Application
 
 ```bash
-cd student-management-aws-3tier/Frontend
+cd student-management-aws-3tier/Frontend/src
 npm install
 npm run build
 sudo apt install apache2 -y
@@ -142,6 +142,7 @@ sudo apt install apache2 -y
 ### Deploy Frontend
 
 ```bash
+cd ..
 sudo cp -r dist/* /var/www/html/
 sudo systemctl restart apache2
 sudo systemctl enable apache2
