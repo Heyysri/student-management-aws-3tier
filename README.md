@@ -97,7 +97,7 @@ git clone https://github.com/Heyysri/student-management-aws-3tier
 ### Build Spring Boot Application
 
 ```bash
-cd Backend
+cd student-management-aws-3tier/Backend
 mvn clean package -DskipTests
 ```
 
