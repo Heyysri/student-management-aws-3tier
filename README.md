@@ -125,10 +125,15 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
+### Clone the Repo
+```bash
+git clone https://github.com/Heyysri/student-management-aws-3tier
+```
+
 ### Build React Application
 
 ```bash
-cd Frontend
+cd student-management-aws-3tier/Frontend
 npm install
 npm run build
 sudo apt install apache2 -y
