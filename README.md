@@ -97,8 +97,8 @@ git clone https://github.com/Heyysri/student-management-aws-3tier
 ### Build Spring Boot Application
 
 ```bash
-NOTE: Replace <YOUR-RDS-ENDPOINT> with your actual AWS RDS endpoint from the RDS console in Backend/src/main/resources/application.properties.
 cd student-management-aws-3tier/Backend
+NOTE: Replace <YOUR-RDS-ENDPOINT> with your actual AWS RDS endpoint from the RDS console in Backend/src/main/resources/application.properties
 mvn clean package -DskipTests
 ```
 
