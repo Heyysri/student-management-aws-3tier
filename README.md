@@ -138,7 +138,7 @@ git clone https://github.com/Heyysri/student-management-aws-3tier
 
 ```bash
 cd student-management-aws-3tier/Frontend/src
-NOTE:Replace /<BACKEND-EC2-PUBLIC-IP> with your actual backend EC2 public IPv4 address in App.jsx
+NOTE:Replace <BACKEND-EC2-PUBLIC-IP> with your actual backend EC2 public IPv4 address in App.jsx
 npm install
 npm run build
 sudo apt install apache2 -y
