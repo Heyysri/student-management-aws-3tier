@@ -60,7 +60,7 @@ A Full-Stack Student Management System deployed on AWS using a 3-tier architectu
 - Launch:
   - Frontend EC2 Instance
   - Backend EC2 Instance
-- Create RDS MySQL Database
+- Create RDS MySQL Database (Give DB instance identifier: student-db and Initial database name: studentdb)
 - Configure inbound rules correctly
 
 ---
